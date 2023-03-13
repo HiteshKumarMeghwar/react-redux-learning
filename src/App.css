@@ -1,0 +1,16 @@
+.quantity{
+  text-align: center;
+}
+
+.quantity_minus{
+  /* background-color: green; */
+}
+.quantity_minus span {
+  padding-right: 20px;
+}
+.quantity_plus{
+  /* background-color: blue; */
+}
+.quantity_plus span {
+  padding-left: 20px;
+}
