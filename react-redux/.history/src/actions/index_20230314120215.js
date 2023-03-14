@@ -36,7 +36,7 @@ export const addTodo = (data) => {
 export const deleteTodo = (id) => {
     return {
         type: "DELETETODO",
-        id
+        id:id
     }
 }
 

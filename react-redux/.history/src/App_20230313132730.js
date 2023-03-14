@@ -1,5 +1,4 @@
 import React from 'react'
-import Todo from './components/Todo';
 import './App.css'
 import { useSelector, useDispatch } from 'react-redux';
 import {incNumber, decNumber, multNumber, divNumber} from './actions/index';
@@ -38,8 +37,6 @@ const App = () => {
           ><span>/</span></a>
         </div>
       </div>
-
-      <Todo />
     </>
   )
 }

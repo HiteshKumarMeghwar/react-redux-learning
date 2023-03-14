@@ -1,5 +1,4 @@
 import React from 'react'
-import Todo from './components/Todo';
 import './App.css'
 import { useSelector, useDispatch } from 'react-redux';
 import {incNumber, decNumber, multNumber, divNumber} from './actions/index';
@@ -39,7 +38,16 @@ const App = () => {
         </div>
       </div>
 
-      <Todo />
+      <div className='main-div'>
+        <div className='child-div'>
+          <figure>
+            <figcaption>Add Your List Here</figcaption>
+          </figure>
+          <div>
+            
+          </div>
+        </div>
+      </div>
     </>
   )
 }

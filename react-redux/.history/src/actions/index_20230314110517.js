@@ -23,20 +23,15 @@ export const divNumber = () => {
     }
 }
 
-export const addTodo = (data) => {
+export const addTodo = () => {
     return {
-        type: "ADDTODO",
-        payload: {
-            id: new Date().getTime().toString(),
-            data:data
-        }
+        type: "ADDTODO"
     }
 }
 
-export const deleteTodo = (id) => {
+export const deleteTodo = () => {
     return {
-        type: "DELETETODO",
-        id
+        type: "DELETETODO"
     }
 }
 

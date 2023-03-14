@@ -33,10 +33,9 @@ export const addTodo = (data) => {
     }
 }
 
-export const deleteTodo = (id) => {
+export const deleteTodo = () => {
     return {
-        type: "DELETETODO",
-        id
+        type: "DELETETODO"
     }
 }
 
